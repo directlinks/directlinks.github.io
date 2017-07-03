@@ -1,13 +1,14 @@
 !#/usr/env/python
 import cgi
-
+data=cgi.FormContent()
 print "Content-type:text/html\r\n\r\n"
 
 import urllib2
 import requests
 from bs4 import BeautifulSoup
-print search
-print "hello"
+print data
+print "bye"
+
 '''
 global citelinks,watchable,srcoflinks, nondownloadable
 citelinks=[]
