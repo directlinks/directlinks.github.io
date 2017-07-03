@@ -1,4 +1,4 @@
-!#/usr/env/python
+#!/usr/env/python
 import cgi
 data=cgi.FormContent()
 print "Content-Type:text/html\n"
