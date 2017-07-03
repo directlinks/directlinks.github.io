@@ -1,7 +1,7 @@
 !#/usr/env/python
 import cgi
 data=cgi.FormContent()
-print "Content-type:text/html\r\n\r\n"
+print "Content-Type:text/html\n"
 
 import urllib2
 import requests
